@@ -11,7 +11,8 @@ int Percolation::Index(int row, int col)
 Percolation::Percolation(int n) : _UF(n * n + 2)
 {
 	if (n < 0)
-		throw std::runtime_error("n must be more than 0");
+		throw std::invalid_argument("n must be more than 0");
+
 	_n = n;
 
 	// Sites: [0] to [n^2 - 1]
@@ -22,10 +23,14 @@ Percolation::Percolation(int n) : _UF(n * n + 2)
 void Percolation::open(int row, int col)
 {
 	if (row >= _n || _n < 0 || col >= _n || col < 0)
-		throw std::runtime_error("row, col must be in [0, N-1]");
-	if (isOpen(row, col)) return;
+		throw std::invalid_argument("row, col must be in [0, N-1]");
+
+	if (isOpen(row, col))
+		return;
+
 	int index = Index(row, col);
 	_open[index] = true;
+
 	if (row == 0 && col == 0)
 	{
 		if (isOpen(0, 1)) _UF.Union(index, Index(0, 1));
