@@ -1,1 +1,1 @@
-# Computational Mathematics
+# ComputationalMathematics
