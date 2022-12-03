@@ -1,9 +1,0 @@
-<RCC>
-    <qresource prefix="/Interpolation_Task"/>
-    <qresource prefix="/Icons">
-        <file>die.png</file>
-        <file>info.png</file>
-        <file>line-graph.png</file>
-        <file>open.png</file>
-    </qresource>
-</RCC>
