@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <fstream>
 #include <string>
 
@@ -19,11 +19,11 @@ void Export(vector<double> x, vector<double> y, string filename)
 
 int main()
 {
-	Interpolator interpolator;
+    Interpolator interpolator;
 
-	interpolator.LoadData("../data/data.txt");
+    interpolator.LoadData("../data/data.txt");
 
-	interpolator.Interpolate(Mode::Linear);
+    interpolator.Interpolate(Mode::Linear);
     Export(interpolator.X(), interpolator.Y(), "linear.txt");
 
     interpolator.Interpolate(Mode::Quadratic);
