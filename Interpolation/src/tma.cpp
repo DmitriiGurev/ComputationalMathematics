@@ -2,6 +2,7 @@
 
 #include <stdexcept>
 
+// Tridiagonal Matrix Algorithm
 std::vector<double> TMA(
     size_t M,
     std::vector<double> a,
