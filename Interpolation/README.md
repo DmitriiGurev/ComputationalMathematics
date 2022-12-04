@@ -1,3 +1,3 @@
 # Interpolation
 
-![results](https://github.com/DmitriiGurev/ComputationalMathematics/blob/main/Interpolation/results.png?raw=true)
+![results](https://github.com/DmitriiGurev/ComputationalMathematics/blob/main/Interpolation/result.png?raw=true)
