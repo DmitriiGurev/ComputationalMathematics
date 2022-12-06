@@ -27,7 +27,7 @@ int main()
     int nIt = 3000;
     double eps = 100;
 
-    double xStep = 4*0.00005, yStep = 4*0.0001;
+    double xStep = 0.0002, yStep = 0.0004;
     double xMin = 0.3675, xMax = 0.420;
     double yMin = 0.188, yMax = 0.239;
 
