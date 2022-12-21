@@ -1,3 +1,3 @@
 # Diffusion 2D
 
-TODO
+Solving the 2D diffusion equation with Neumann boundary conditions using the implicit Finite Difference method.
