@@ -66,7 +66,7 @@ int main()
 
     Tucker tucker(tensor);
 
-    cout << "An accurate representation of the original tensor (eps = 0):\n" << tucker << "\n\n";
+    cout << "Accurate representation of the original tensor (eps = 0):\n" << tucker << "\n\n";
 
     cout << "Dimensions: " 
         << "{" << tucker.Dimensions()[0] << ", " << tucker.Dimensions()[1] << ", " << tucker.Dimensions()[2] << "}\n\n";
@@ -86,7 +86,7 @@ int main()
     cout << "--------------------------------------------------------------------------------------------------------------------\n\n";
 
     Tucker compressed(tensor, 0.1);
-    cout << "A compressed version of the original tensor (eps = 0.1):\n" << compressed << "\n\n";
+    cout << "Compressed version of the original tensor (eps = 0.1):\n" << compressed << "\n\n";
 
     cout << "Dimensions: "
         << "{" << compressed.Dimensions()[0] << ", " << compressed.Dimensions()[1] << ", " << compressed.Dimensions()[2] << "}\n\n";
