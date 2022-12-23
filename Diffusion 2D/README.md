@@ -1,3 +1,3 @@
 # Diffusion 2D
 
-Solving the 2D diffusion equation with Neumann boundary conditions using the implicit Finite Difference method.
+A code for solving the 2D diffusion equation with Neumann boundary conditions using the Implicit Finite Difference method.
