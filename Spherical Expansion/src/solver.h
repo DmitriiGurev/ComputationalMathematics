@@ -7,7 +7,8 @@ enum Scheme
 {
     LaxFriedrichs,
     LaxWendroff,
-    LargeParticle
+    LargeParticle,
+    WenoLF
 };
 
 struct Solution
